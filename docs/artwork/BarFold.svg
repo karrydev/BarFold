@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>BarFold</title>
+  <desc>Three menu dots above a folded tray, on a deep blue square.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="0.83" y2="1">
+      <stop stop-color="#123D70"/><stop offset=".52" stop-color="#102F58"/><stop offset="1" stop-color="#09182F"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".23" cy=".12" r=".78">
+      <stop stop-color="#257FD0" stop-opacity=".55"/><stop offset="1" stop-color="#13638E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="outline" x2=".85" y2="1">
+      <stop stop-color="#79C8FF" stop-opacity=".74"/><stop offset=".53" stop-color="#72ADEF" stop-opacity=".19"/><stop offset="1" stop-color="#4372A7" stop-opacity=".42"/>
+    </linearGradient>
+    <linearGradient id="sheet" x1=".02" y1="0" x2=".93" y2=".95">
+      <stop stop-color="#B6F6FF"/><stop offset=".49" stop-color="#56E1E7"/><stop offset="1" stop-color="#28AECF"/>
+    </linearGradient>
+    <linearGradient id="fold" x1="0" y1=".98" x2=".95" y2="0">
+      <stop stop-color="#167B9D"/><stop offset="1" stop-color="#C8FFF8"/>
+    </linearGradient>
+    <linearGradient id="dashes" x2="0" y2="1">
+      <stop stop-color="#F7FCFF"/><stop offset="1" stop-color="#CEF1FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="87" y="97" width="850" height="850" rx="209" fill="#050E1D" opacity=".76"/>
+  <rect x="88" y="86" width="848" height="848" rx="208" fill="url(#base)"/>
+  <rect x="88" y="86" width="848" height="848" rx="208" fill="url(#halo)"/>
+  <rect x="90" y="88" width="844" height="844" rx="206" fill="none" stroke="url(#outline)" stroke-width="4"/>
+  <path d="M298 288h428a45 45 0 0 1 45 45v70a45 45 0 0 1-45 45H298a45 45 0 0 1-45-45v-70a45 45 0 0 1 45-45Z" fill="#09213F" fill-opacity=".63" stroke="#89CFFF" stroke-opacity=".53" stroke-width="6"/>
+  <g fill="url(#dashes)">
+    <circle cx="416" cy="368" r="25"/><circle cx="512" cy="368" r="25"/><circle cx="608" cy="368" r="25"/>
+  </g>
+  <path d="M298 524h428a45 45 0 0 1 45 45v44l-105 105H298a45 45 0 0 1-45-45V569a45 45 0 0 1 45-45Z" fill="#081626" opacity=".48" transform="translate(0 12)"/>
+  <path d="M298 524h428a45 45 0 0 1 45 45v44l-105 105H298a45 45 0 0 1-45-45V569a45 45 0 0 1 45-45Z" fill="url(#sheet)"/>
+  <path d="M666 718v-66a39 39 0 0 1 39-39h66Z" fill="#0A354F" opacity=".52"/>
+  <path d="M663 717v-67a39 39 0 0 1 39-39h67Z" fill="url(#fold)"/>
+  <path d="M276 564a27 27 0 0 1 26-24h420" fill="none" stroke="#F1FFFF" stroke-opacity=".44" stroke-width="5" stroke-linecap="round"/>
+  <rect x="325" y="607" width="219" height="28" rx="14" fill="#124C70" fill-opacity=".72"/>
+</svg>
